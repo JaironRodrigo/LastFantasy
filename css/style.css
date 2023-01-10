@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.the-game {
+  width: 80%;
+  height: 800px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 70px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rock {
+  position: absolute;
+  bottom: 0;
+  width: 250px;
+  animation: rock-animation 2s infinite linear;
+}
+
+@keyframes rock-animation {
+  from {
+    right: -250px;
+  }
+  to {
+    right: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
