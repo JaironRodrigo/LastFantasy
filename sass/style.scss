@@ -14,14 +14,14 @@
   overflow: hidden;
 }
 
-.rock {
+#rock {
   position: absolute;
   bottom: 0;
   width: 200px;
   animation: rock-animation 2s infinite linear;
 }
 
-.hero {
+#hero {
   width: 250px;
   position: absolute;
   bottom: 0px;
@@ -29,6 +29,10 @@
 
 .jump {
   animation: jump 500ms ease-out;
+}
+
+.message {
+  width: 300px;
 }
 
 @keyframes rock-animation {
