@@ -12,7 +12,7 @@ const loop = setInterval(function () {
   var rockPosition = rock.offsetLeft;
   var heroPosition = +window.getComputedStyle(hero).bottom.replace("px", "");
 
-  if (rockPosition < 120 && rockPosition > 0 && heroPosition < 130) {
+  if (rockPosition < 100 && rockPosition > 0 && heroPosition < 90) {
     rock.style.animation = "none";
     rock.style.left = `${rockPosition}px`;
 
@@ -20,9 +20,11 @@ const loop = setInterval(function () {
     hero.style.bottom = `${heroPosition}px`;
 
     hero.src = "./images/youdied.webp";
-    hero.style.width = "400px";
-    hero.style.marginBottom = "300px";
-    hero.style.marginLeft = "570px";
+    hero.style.width = "250px";
+    hero.style.marginBottom = "200px";
+    hero.style.marginLeft = "350px";
+
+    clearInterval(loop);
   }
 }, 10);
 document.addEventListener("keydown", jump);
