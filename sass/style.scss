@@ -12,7 +12,7 @@
   border: double 5px black;
   border-bottom: 15px solid saddlebrown;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 18px;
   position: relative;
   overflow: hidden;
   background-image: url(../images/background/thibault-dupre-landscapev3hd.gif);
@@ -86,13 +86,16 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: -100px;
+  margin-top: -3%;
   margin-left: -100px;
   width: 250px;
   height: 80px;
   text-align: center;
   cursor: pointer;
   font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #start a {
@@ -121,16 +124,38 @@
   border: 5px double black;
   font-family: "Teko";
   font-size: 30px;
-  margin-top: 15%;
-  margin-left: 36%;
+  margin-top: 20%;
+  margin-left: 35%;
   width: 600px;
-  height: 150px;
+  height: 200px;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+#exit {
+  text-align: center;
+  width: 100px;
+}
+
+.exit {
+  background: transparent;
+  font-family: "Teko";
+  font-weight: bold;
+  color: darkred;
+  width: 180px;
+  height: 30px;
+  padding-top: 20px;
+  margin: 0 auto;
+  margin-left: 0;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.exit:hover {
+  color: white;
+}
 @keyframes rock-animation {
   from {
     right: -200px;
@@ -147,15 +172,15 @@
   }
 
   40% {
-    bottom: 150px;
+    bottom: 160px;
   }
 
   50% {
-    bottom: 150px;
+    bottom: 160px;
   }
 
   60% {
-    bottom: 150px;
+    bottom: 160px;
   }
 
   100% {

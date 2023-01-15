@@ -27,7 +27,7 @@ const jump = () => {
 const loop = setInterval(function () {
   var rockPosition = rock.offsetLeft;
   var heroPosition = +window.getComputedStyle(hero).bottom.replace("px", "");
-  if (rockPosition < 100 && rockPosition > 0 && heroPosition < 90) {
+  if (rockPosition < 60 && rockPosition > 0 && heroPosition < 60) {
     rock.style.animation = "none";
     rock.style.left = `${rockPosition}px`;
 
@@ -36,8 +36,10 @@ const loop = setInterval(function () {
 
     hero.src = "./images/pixel-skeleton (1).gif";
     hero.style.width = "250px";
-    hero.style.marginLeft = "38%";
+    hero.style.marginLeft = "34%";
+    hero.style.marginRight = "45%";
     hero.style.marginBottom = "20%";
+
     score = count;
 
     alert("GAME OVER");
