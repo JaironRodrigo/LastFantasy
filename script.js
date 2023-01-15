@@ -35,9 +35,15 @@ const loop = setInterval(function () {
     hero.style.bottom = `${heroPosition}px`;
 
     hero.src = "./images/pixel-skeleton (1).gif";
-    hero.style.width = "100px";
+    hero.style.width = "250px";
+    hero.style.marginLeft = "38%";
+    hero.style.marginBottom = "20%";
+    score = count;
 
-    score = 0;
+    alert("GAME OVER");
+    const name = prompt("Insira seu nome:");
+
+    alert("Parabéns " + name + "!" + "\nSeu score é: " + score);
 
     clearInterval(loop);
   }
