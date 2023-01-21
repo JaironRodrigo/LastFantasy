@@ -1,6 +1,6 @@
 <h1 align="center">Last Fantasy</h1>
 
-<p>Olá, esse é o projeto Last Fantasy, feito para ser um jogo de navegador simples.</p>
+<p>Olá, esse é o projeto Last Fantasy, feito para ser um jogo de navegador.</p>
 
 <p>Como funciona: </p>
 
