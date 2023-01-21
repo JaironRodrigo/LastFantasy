@@ -34,7 +34,7 @@ const loop = setInterval(function () {
     hero.style.animation = "none";
     hero.style.bottom = `${heroPosition}px`;
 
-    hero.src = "./images/pixel-skeleton (1).gif";
+    hero.src = "./assets/images/pixel-skeleton (1).gif";
     hero.style.width = "250px";
     hero.style.marginLeft = "34%";
     hero.style.marginRight = "45%";
