@@ -15,3 +15,5 @@
 </p>
 
 <p>Essa é a tela principal, você apenas precisar pular sobre os obstáculos e fazer a maior pontuação possível, no final digite seu nome.</p>
+
+<p> Veja o projeto no link: https://jaironrodrigo.github.io/LastFantasy/</p>
